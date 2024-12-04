@@ -1,13 +1,6 @@
 {
   "restaurantes": [
     {
-      "id": "85e2",
-      "nombre": "Hosss",
-      "horario": "8:00 - 11:00",
-      "tipo": "sushi",
-      "url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.thespruceeats.com%2Fthmb%2FIzejeJObvz4lvYpW06uwhX6iR00%253D%2F3680x2456%2Ffilters%3Afill(auto%252C1)%2FGettyImages-Ridofranz-1053855542-60b89644efd2470fbfb6475b175064df.jpg&f=1&nofb=1&ipt=73f50449be8a5a7930ad08ebfc296aef049755869e62d4d31bd690557f0b0554&ipo=images"
-    },
-    {
       "id": "73a9",
       "nombre": "aaaa",
       "horario": "8:00 - 20:00",

@@ -31,9 +31,9 @@ const App = () => {
     <div className="app-container">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={ <ListaRestaurantes restaurantes = {restaurantes} />} />
-          <Route path="/addRestaurante" element={ <AddRestaurante/> } />
-          <Route path="/item/:id" element={ <DetalleResturante/> } />
+          <Route path="/" element={ <ListaRestaurantes restaurantes={restaurantes} />} />
+          <Route path="/addRestaurante" element={ <AddRestaurante setRestaurantes={setRestaurantes} />} />
+          <Route path="/item/:id" element={ <DetalleResturante setRestaurantes={setRestaurantes} />} />
           <Route path="/update/:id" element={ <ActualizarRestaurante setRestaurantes={setRestaurantes} />} />
         </Routes>
       </BrowserRouter>
